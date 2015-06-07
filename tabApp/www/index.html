@@ -29,14 +29,13 @@
         <h1 class="title">Ionic Blank Starter</h1>
         <button class="button icon ion-android-options button-clear"></button>
       </ion-header-bar>
-
-      <div class="tabs-striped tabs-background-light tabs-top">
-        <div class="tabs tabs-icon-top">
-         <a class="tab-item"><i class="icon ion-erlenmeyer-flask"></i>Lab</a>
-         <a class="tab-item"><i class="icon ion-lightbulb"></i>Lights</a>
-         <a class="tab-item"><i class="icon ion-pizza"></i>Food</a>
+      
+      <ion-tabs class="tabs-icon-top">
+        <ion-tab icon="ion-erlenmeyer-flask" title="home"></ion-tab>
+        <ion-tab icon="ion-lightbulb" title="lights"></ion-tab>
+        <ion-tab badge="5" badge-style="badge-assertive" icon="ion-pizza" title="food"></ion-tab>
         </div>
-      </div>
+      </ion-tabs>
 
     </ion-pane>
   </body>
